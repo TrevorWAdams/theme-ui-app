@@ -5,6 +5,13 @@
   "dependencies": {
     "@emotion/core": "^10.0.14",
     "@mdx-js/react": "^1.0.27",
+    "@progress/kendo-data-query": "^1.5.1",
+    "@progress/kendo-react-dateinputs": "^3.2.2",
+    "@progress/kendo-react-dropdowns": "^3.2.2",
+    "@progress/kendo-react-grid": "^3.2.2",
+    "@progress/kendo-react-inputs": "^3.2.2",
+    "@progress/kendo-react-intl": "^3.2.2",
+    "@progress/kendo-theme-default": "^4.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",

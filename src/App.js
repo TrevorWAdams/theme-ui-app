@@ -9,6 +9,16 @@ import UploadBox from './components/upload-box'
 
 const cards = [1, 2, 3, 4, 5, 6]; // Demo data to generate 6 cards
 
+const data = [
+  { rfiName: "Rfi One", rfiNumber: 1000 },
+  { rfiName: "Rfi Two", rfiNumber: 2000 },
+  { rfiName: "Rfi Three", rfiNumber: 3000 },
+  { rfiName: "Rfi Four", rfiNumber: 4000 },
+  { rfiName: "Rfi Five", rfiNumber: 5000 },
+]
+
+
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
@@ -24,7 +34,7 @@ function App() {
       />
         <ColorSwitch />
         <Container>
-          <DataGrid />
+          <DataGrid data={data}/>
           <UploadBox />
           <Cards cards={cards} />
         </Container>
